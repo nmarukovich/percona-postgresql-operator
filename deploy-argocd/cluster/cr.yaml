@@ -191,6 +191,11 @@ spec:
   image: docker.io/percona/percona-distribution-postgresql:17.11.1-1
   imagePullPolicy: Always
   postgresVersion: 17
+  patroni:
+    dynamicConfiguration:
+      postgresql:
+        parameters:
+          max_connections: 200
   users:
     - name: app1
       databases:
