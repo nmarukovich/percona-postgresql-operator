@@ -724,10 +724,6 @@ spec:
 #          - name: net.ipv4.tcp_keepalive_intvl
 #            value: "60"
 #
-      manual:
-        repoName: repo1
-        options:
-         - --type=full
 #        initialDelaySeconds: 120
       repos:
       - name: repo1
