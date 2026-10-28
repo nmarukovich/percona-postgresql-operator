@@ -404,7 +404,7 @@ spec:
 
   proxy:
     pgBouncer:
-      replicas: 2
+      replicas: 3
       image: docker.io/percona/percona-pgbouncer:1.25.2-6
 #      paused: true
 #      env:
