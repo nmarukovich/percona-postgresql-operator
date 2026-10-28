@@ -191,6 +191,10 @@ spec:
   image: docker.io/percona/percona-distribution-postgresql:17.11.1-1
   imagePullPolicy: Always
   postgresVersion: 17
+  users:
+    - name: app1
+      databases:
+        - app1
 #  port: 5432
 
 #  expose:
